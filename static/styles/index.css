@@ -1,0 +1,49 @@
+.my-container {
+  padding: 0;
+  margin: auto;
+  width: 1280px;
+}
+.my-container .my-center {
+  text-align: center;
+}
+
+.users-table {
+  width: 100%;
+  border-color: #dee2e6;
+  border-collapse: collapse !important;
+  border-spacing: 2px;
+}
+.users-table thead th {
+  font-weight: bold;
+}
+.users-table thead th .number {
+  width: 40px;
+}
+.users-table thead th .pfp {
+  width: 40px;
+}
+.users-table thead th .name {
+  width: 250px;
+}
+.users-table thead th .email {
+  width: 200px;
+}
+.users-table thead th .phone {
+  width: 140px;
+}
+.users-table th, .users-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border: #dee2e6 solid 0;
+  border-bottom-width: 1px;
+}
+.users-table tbody .pfp {
+  width: 80px;
+  height: 80px;
+}
+.users-table tbody .pfp img {
+  width: 80px;
+  height: 80px;
+}
+
+/*# sourceMappingURL=index.css.map */
